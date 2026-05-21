@@ -74,15 +74,13 @@ To restart the Finder.
 
 This is mostly intended for bootable macOS volumes, though it may or may not work on T2 machines. I don't have access to a T2 machine, so I can't verify if it works so ¯\_(ツ)_/¯
 
-For a much better technical dive, just visit one of Asahi's thorough [documentation](https://asahilinux.org/docs/platform/introduction/) about the boot flow. They're awesome!
-
 This project was inspired by the work of [rxhfcy](https://github.com/rxhfcy) with their [Asahi Restart Helper tool](https://github.com/rxhfcy/Asahi-Restart-Helper--macOS-version) Theirs is much fancier, but I wanted an easier and less intrusive version <sup><sub>(that didn't require me to burn hours using Swift...)</sub></sub>
 
 ### Credits
 
-- [Asahi Linux](https://asahilinux.org/) for making me even realise that `bless` is a thing.
 - [CorpNewt](https://github.com/corpnewt) for the inspiration to make a similar tool. <sup><sub><sup><sub>(R.I.P Hackintosh. Gone but not forgotten...)</sub></sub>
 - [rxhfcy](https://github.com/rxhfcy) for making me realise it's feasible and not just some pipe dream.
 
 ### License
+
 This project is licensed under the MIT License. See [**LICENSE**](LICENSE) for more details.
