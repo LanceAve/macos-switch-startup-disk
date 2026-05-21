@@ -1,8 +1,8 @@
-# Switch Startup Disk
+# Startup Disk Switcher
 
 A tiny macOS Finder Quick Action that was made using the Automator app on MacOS. Its sole purpose is to allow you to switch between a bootable macOS volume without having to dig through System Settings over and over again, or having to type the command manually a billion times. 
 
-It essentially just wraps Apple’s `bless` command in a Finder-friendly Quick Action (similar in spirit to the [MountEFI tool](https://github.com/corpnewt/MountEFI) made by [CorpNewt](https://github.com/corpnewt).)
+It essentially just wraps the `bless` command in a Finder-friendly Quick Action (similar in spirit to the [MountEFI tool](https://github.com/corpnewt/MountEFI) made by [CorpNewt](https://github.com/corpnewt).)
 
 ### How it works
 
@@ -72,18 +72,17 @@ To restart the Finder.
 
 ### Notes
 
-This is mostly intended for bootable macOS volumes on Apple Silicon Macs, though it may or may not work on T2 machines. I don't have access to a T2 machine, so I can't verify if it works so ¯\_(ツ)_/¯
+This is mostly intended for bootable macOS volumes, though it may or may not work on T2 machines. I don't have access to a T2 machine, so I can't verify if it works so ¯\_(ツ)_/¯
 
 For a much better technical dive, just visit one of Asahi's thorough [documentation](https://asahilinux.org/docs/platform/introduction/) about the boot flow. They're awesome!
 
-This project was inspired by the work of [rxhfcy](https://github.com/rxhfcy) with their [Asahi Restart Helper tool](https://github.com/rxhfcy/Asahi-Restart-Helper--macOS-version) Theirs is much fancier, but I wanted an easier and less intrusive version <sup><sub>(that didn't require me to burn time on SwiftUI)</sub></sub>
+This project was inspired by the work of [rxhfcy](https://github.com/rxhfcy) with their [Asahi Restart Helper tool](https://github.com/rxhfcy/Asahi-Restart-Helper--macOS-version) Theirs is much fancier, but I wanted an easier and less intrusive version <sup><sub>(that didn't require me to burn hours using Swift...)</sub></sub>
 
 ### Credits
 
-- [Apple](https://www.apple.com) for macOS, Finder, Automator, AppleScript and the `bless` command
 - [Asahi Linux](https://asahilinux.org/) for making me even realise that `bless` is a thing.
 - [CorpNewt](https://github.com/corpnewt) for the inspiration to make a similar tool. <sup><sub><sup><sub>(R.I.P Hackintosh. Gone but not forgotten...)</sub></sub>
 - [rxhfcy](https://github.com/rxhfcy) for making me realise it's feasible and not just some pipe dream.
 
-## License
-This project is licensed under the MIT License. See [**LICENSE**](LICENSE.md) for more details.
+### License
+This project is licensed under the MIT License. See [**LICENSE**](LICENSE) for more details.
